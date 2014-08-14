@@ -19,7 +19,7 @@ this package as well as its dependencies. Alternatively you can simply clone
 the git repository and take care of loading yourself.
 
 ### Migration from Older Versions
-To migrate from older versions of Validator that did not use Composer to install generally all that is needed is to be done is use Composer to install.  However, if conflicts occur or if the old version of Validator was installed in a non-standard location simply deleted the old Validator/ folder first.  If Validator was being used exclusively for supporting another Composer based installed extension it may be required to delete the Validator/ folder and let the other extension automatically install Validator as a dependency when using Composer.
+To migrate from older versions of Validator that did not use Composer to install generally all that is needed is to be done is use Composer to install.  However, if conflicts occur or if the old version of Validator was installed in a non-standard location simply deleted the old Validator/ folder first.  If this extension was being used exclusively for supporting another Composer installed extension it may be required to delete this extension's Validator/ folder and let the other extension automatically install Validator as a dependency when using Composer.
 
 ### Composer
 
