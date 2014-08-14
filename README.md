@@ -18,8 +18,8 @@ You can use [Composer](http://getcomposer.org/) to download and install
 this package as well as its dependencies. Alternatively you can simply clone
 the git repository and take care of loading yourself.
 
-### Migration from Older Versions
-To migrate from older versions of Validator that did not use Composer to install generally all that is needed is to be done is use Composer to install.  However, if conflicts occur or if the old version of Validator was installed in a non-standard location simply deleted the old Validator/ folder first.  If this extension was being used exclusively for supporting another Composer installed extension it may be required to delete this extension's Validator/ folder and let the other extension automatically install Validator as a dependency when using Composer.
+### Migration from Versions Below 2.0
+Version 2.0 of Validator and associated extensions introduced Composer support for installation.  To migrate from older versions of Validator that did not use Composer generally all that is needed is to be done is use Composer to install.  However, if conflicts occur or if the old version of Validator was installed in a non-standard location simply deleted the old Validator/ folder first along with removing any require_once() entries to the old version from LocalSettings.php.  If this extension was being used exclusively for supporting another Composer installed extension it may be required to delete this extension's Validator/ folder and let the other extension automatically install Validator as a dependency when using Composer.
 
 ### Composer
 
